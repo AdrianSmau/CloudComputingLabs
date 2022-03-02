@@ -1,20 +1,10 @@
-[03/02/2022 12:51:23 pm] Web search result #0 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:23 pm] Web search result #1 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:23 pm] Web search result #2 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:23 pm] Web search result #3 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:23 pm] Web search result #4 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:23 pm] Web search result #5 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:23 pm] Web search result #6 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:23 pm] Web search result #7 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:23 pm] Web search result #8 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:23 pm] Web search result #9 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:47 pm] Web search result #0 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:47 pm] Web search result #1 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:47 pm] Web search result #2 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:47 pm] Web search result #3 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:47 pm] Web search result #4 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:47 pm] Web search result #5 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:47 pm] Web search result #6 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:47 pm] Web search result #7 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:47 pm] Web search result #8 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
-[03/02/2022 12:51:47 pm] Web search result #9 - Message: You have exceeded the DAILY quota for requests on your current plan, BASIC. Upgrade your plan at https://rapidapi.com/contextualwebsearch/api/web-search
+[03/02/2022 03:46:25 pm] Web search result #0 - Title: Acid Rain (Automatik Mix) by Johnny Electro on Beatport, URL: https://www.beatport.com/track/acid-rain-automatik-mix/10999068!
+[03/02/2022 03:46:25 pm] Web search result #1 - Title: UMBA - Acid Rain (DJ HAUS UTTU MIX) | Don't Watch That, URL: http://www.dontwatchthat.tv/2012/03/umba-acid-rain-dj-haus-uttu-mix/!
+[03/02/2022 03:46:25 pm] Web search result #2 - Title: Acid Rain - Original Mix on Traxsource, URL: https://www.traxsource.com/track/6010952/acid-rain-original-mix!
+[03/02/2022 03:46:25 pm] Web search result #3 - Title: Equinox: Acid Rain (Breakage Final Chapter Mix) - Hard Wax, URL: https://hardwax.com/50795/equinox/acid-rain-breakage-final-chapter-mix/!
+[03/02/2022 03:46:25 pm] Web search result #4 - Title: Acid Rain Cocktail | Drink Mix Guide, URL: http://www.drinkmixguide.com/Cocktail/Acid-Rain!
+[03/02/2022 03:46:25 pm] Web search result #5 - Title: Steve saiz  Acid Rain Production, URL: http://acidrainproduction.com/tag/steve-saiz/!
+[03/02/2022 03:46:25 pm] Web search result #6 - Title: What happened to.. acid rain - Toronto | Globalnews.ca, URL: https://globalnews.ca/news/7898082/what-happened-to-acid-rain/!
+[03/02/2022 03:46:25 pm] Web search result #7 - Title: Information released by the Meteorological Center regarding acid rain, URL: https://presstories.com/2021/06/02/information-released-by-the-meteorological-center-regarding-acid-rain/!
+[03/02/2022 03:46:25 pm] Web search result #8 - Title: Conservation Update: Brook Trout Recovering from Acid Rain Damage, URL: https://www.fieldandstream.com/blogs/conservationist/2011/11/conservation-update-brook-trout-recovering-acid-rain-damage/!
+[03/02/2022 03:46:25 pm] Web search result #9 - Title: Acid Rain pollution - College Papers For Sale Online, URL: https://pennsylvaniaangerclass.com/acid-rain-pollution/!

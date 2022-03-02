@@ -20,8 +20,8 @@ class MainController extends BaseController
             try {
                 $MetricsServ = new MetricsService();
                 //Uncomment when deploying
-                //$MetricsServ->clearLog();
-                //$MetricsServ->clearResultFile();
+                $MetricsServ->clearLog();
+                $MetricsServ->clearResultFile();
 
                 $start = microtime(true);
                 $RandomOrgServ = new RandomOrgService();

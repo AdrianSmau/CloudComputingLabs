@@ -1,10 +1,5 @@
-[03/02/2022 12:51:22 pm] API = RandomORG, REQUEST = GET random number between 0 and 19, RESPONSE = 200OK, RESULT = error code: 1006, LATENCY = 0.10074901580811 second(s).
-[03/02/2022 12:51:22 pm] API = Genius, REQUEST = GET song with given ID by artist with ID 16675, RESPONSE = 200OK, RESULT = 1+1 by Sia, LATENCY = 0.73611307144165 second(s).
-[03/02/2022 12:51:23 pm] API = WebSearch, REQUEST = GET web searches by song title, RESPONSE = 200OK, RESULT = Exceeded Basic Plan API Requests for WebSearches!, LATENCY = 0.22342896461487 second(s).
-[03/02/2022 12:51:23 pm] API = getResults, REQUEST = GET random number, generate random song by artist with id 16775 and fetch web searches, RESPONSE = 200OK, RESULT = Result file updated! Call /metrics for info!, LATENCY = 1.0691530704498 second(s).
-[03/02/2022 12:51:27 pm] API = metrics, REQUEST = GET API metrics, RESPONSE = 200OK, RESULT = Metrics displayed!, LATENCY = 9.2983245849609E-5 second(s).
-[03/02/2022 12:51:46 pm] API = RandomORG, REQUEST = GET random number between 0 and 19, RESPONSE = 200OK, RESULT = error code: 1006, LATENCY = 0.11000609397888 second(s).
-[03/02/2022 12:51:47 pm] API = Genius, REQUEST = GET song with given ID by artist with ID 16675, RESPONSE = 200OK, RESULT = 1+1 by Sia, LATENCY = 1.1095550060272 second(s).
-[03/02/2022 12:51:47 pm] API = WebSearch, REQUEST = GET web searches by song title, RESPONSE = 200OK, RESULT = Exceeded Basic Plan API Requests for WebSearches!, LATENCY = 0.19714617729187 second(s).
-[03/02/2022 12:51:47 pm] API = getResults, REQUEST = GET random number, generate random song by artist with id 16775 and fetch web searches, RESPONSE = 200OK, RESULT = Result file updated! Call /metrics for info!, LATENCY = 1.4252200126648 second(s).
-[03/02/2022 12:51:50 pm] API = metrics, REQUEST = GET API metrics, RESPONSE = 200OK, RESULT = Metrics displayed!, LATENCY = 9.8943710327148E-5 second(s).
+[03/02/2022 03:46:18 pm] API = RandomORG, REQUEST = GET random number between 0 and 19, RESPONSE = 403 FORBIDDEN, RESULT = random.org banned your IP, LATENCY = 0.13781118392944 second(s).
+[03/02/2022 03:46:20 pm] API = Genius, REQUEST = GET song with given ID by artist with ID 16675, RESPONSE = 200OK, RESULT = Acid Rain [Steve Redant Mix] by Alexis Jordan, LATENCY = 1.3950750827789 second(s).
+[03/02/2022 03:46:25 pm] API = WebSearch, REQUEST = GET web searches by song title, RESPONSE = 200OK, RESULT = Result file updated! Titles displayed!, LATENCY = 4.707132101059 second(s).
+[03/02/2022 03:46:25 pm] API = getResults, REQUEST = GET random number, generate random song by artist with id 16775 and fetch web searches, RESPONSE = 200OK, RESULT = Result file updated! Call /metrics for info!, LATENCY = 6.2508161067963 second(s).
+[03/02/2022 03:46:28 pm] API = metrics, REQUEST = GET API metrics, RESPONSE = 200OK, RESULT = Metrics displayed!, LATENCY = 5.6028366088867E-5 second(s).
