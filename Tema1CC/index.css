@@ -1,0 +1,30 @@
+.resultsContainer{
+    width: 63%;
+    margin: 100px auto;
+}
+.resultsContainer > div{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.metricsContainer{
+    width: 63%;
+    margin: 100px auto;
+}
+.metricsContainer > div{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.parallelRunContainer{
+    width: 63%;
+    margin: 100px auto;
+}
+.parallelRunContainer > div{
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 10px;
+}

@@ -13,25 +13,31 @@ class MetricsService
     }
     function readLog()
     {
-        echo "<h2>--- BEGINNING OF LOG FILE ---<h2><br>";
+        $arr = Array();
+        //echo "<h2>--- BEGINNING OF LOG FILE ---<h2><br>";
         $logFile = fopen($this->logPath, 'r');
         while ($line = fgets($logFile)) {
-            echo "<h3>" . $line . "</h3>";
+            //echo "<h3>" . $line . "</h3>";
+            array_push($arr, $line);
         }
-        echo "<br>";
-        echo ("<h2>--- END OF LOG FILE ---</h2>");
+        //echo "<br>";
+        //echo ("<h2>--- END OF LOG FILE ---</h2>");
         fclose($logFile);
+        return $arr;
     }
     function readResultFile()
     {
-        echo "<h2>--- BEGINNING OF RESULT FILE ---<h2><br>";
+        $arr = Array();
+        //echo "<h2>--- BEGINNING OF RESULT FILE ---<h2><br>";
         $resultFile = fopen($this->resultPath, 'r');
         while ($line = fgets($resultFile)) {
-            echo "<h3>" . $line . "</h3>";
+            //echo "<h3>" . $line . "</h3>";
+            array_push($arr, $line);
         }
-        echo "<br>";
-        echo ("<h2>--- END OF RESULT FILE ---</h2>");
+        //echo "<br>";
+        //echo ("<h2>--- END OF RESULT FILE ---</h2>");
         fclose($resultFile);
+        return $arr;
     }
     function clearLog()
     {

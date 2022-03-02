@@ -51,20 +51,31 @@ class WebSearchService
 
         curl_close($curl);
 
-        $results = Array();
+        $results = array();
 
         if ($err) {
             $metricsServ->writeToLog("WebSearch", "GET web searches by song title", $err, null, $timeElapsed);
             return;
         } else {
+            $exceeded = false;
             for ($i = 0; $i < 10; $i++) {
-                $title = json_decode($response)->value[$i]->title;
-                $url = json_decode($response)->value[$i]->url;
-                $fullMessage =  "Web search result #" . $i . " - Title: " . $title . ", URL: " . $url . "!";
+                $fullMessage = "";
+                if (isset(json_decode($response)->message) && str_starts_with(json_decode($response)->message, "You")) {
+                    if (!$exceeded)
+                        $exceeded = true;
+                    $fullMessage =  "Web search result #" . $i . " - Message: " . json_decode($response)->message;
+                } else {
+                    $title = json_decode($response)->value[$i]->title;
+                    $url = json_decode($response)->value[$i]->url;
+                    $fullMessage =  "Web search result #" . $i . " - Title: " . $title . ", URL: " . $url . "!";
+                }
                 $this->writeToResultFile($fetchTime, $fullMessage);
                 array_push($results, $fullMessage);
             }
-            $metricsServ->writeToLog("WebSearch", "GET web searches by song title", "200OK", "Result file updated! Titles displayed!", $timeElapsed);
+            if (!$exceeded)
+                $metricsServ->writeToLog("WebSearch", "GET web searches by song title", "200OK", "Result file updated! Titles displayed!", $timeElapsed);
+            else
+                $metricsServ->writeToLog("WebSearch", "GET web searches by song title", "200OK", "Exceeded Basic Plan API Requests for WebSearches!", $timeElapsed);
             return $results;
         }
     }
