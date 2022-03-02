@@ -32,12 +32,11 @@ class RandomOrgService
             $metricsServ->writeToLog("RandomORG", "GET random number between 0 and 19", $err, null, $timeElapsed);
             return;
         } else {
-            if($response = "error code: 1006"){
-                $metricsServ->writeToLog("RandomORG", "GET random number between 0 and 19", "403 FORBIDDEN", "random.org banned your IP", $timeElapsed);
+            if ($response = "error code: 1006") {
                 $response = mt_rand(0, 19);
-            }
-            else
-            $metricsServ->writeToLog("RandomORG", "GET random number between 0 and 19", "200OK", $response, $timeElapsed);
+                $metricsServ->writeToLog("RandomORG", "GET random number between 0 and 19", "403 FORBIDDEN", "random.org banned your IP - instead generated number " . $response, $timeElapsed);
+            } else
+                $metricsServ->writeToLog("RandomORG", "GET random number between 0 and 19", "200OK", $response, $timeElapsed);
             return $response;
         }
     }
